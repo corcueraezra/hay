@@ -10,4 +10,5 @@ git branch <branch_name>
 git checkout <branch_name>
 git merge <branch_name>
 git remote add origin https://github.com/corcueraezra/hayahay.git
+git push -u origin master
 git pull
