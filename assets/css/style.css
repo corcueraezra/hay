@@ -9,7 +9,7 @@ html {
 
 body {
   background: #fff;
-  font: 400 14px/1.8 "Open Sans", sans-serif;
+  font: 400 16px/1.8 "Open Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
 }
@@ -163,7 +163,7 @@ a,
 .module,
 .module-small {
   position: relative;
-  padding: 185px 0;
+  padding: 140px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
