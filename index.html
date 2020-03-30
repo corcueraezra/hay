@@ -69,11 +69,11 @@
               </li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Tour Packages</a>
                 <ul class="dropdown-menu">                  
-                  <li class="dropdown"><a class="section-scroll" href="#phil">Philippine Destinations</a>
+                  <li><a class="section-scroll" href="#phil">Philippine Destinations</a>
                   </li>
-                  <li class="dropdown"><a class="section-scroll" href="#international">International Destinations</a>
+                  <li><a class="section-scroll" href="#international">International Destinations</a>
                   </li>
-                  <li class="dropdown"><a class="section-scroll" href="#bicol">Bicol Destinations</a>
+                  <li><a class="section-scroll" href="#bicol">Bicol Destinations</a>
                   </li>
                 </ul>
               </li>
@@ -125,13 +125,13 @@
             </div>
           </div>
         </section>
-        <section class="module-medium">
+        <div class="module-medium">
           <div class="container">
             <div class="row multi-columns-row">
               <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_mp_fullscreen_video_background.html">
                   <div class="content-box-image"><img src="assets/images/screenshots/1a.jpg" alt="Main Demo"></div>
                   <h3 class="content-box-title font-serif">Travel Taiwan</h3></a></div>
-              
+
                 <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_agency.html">
                     <div class="content-box-image"><img src="assets/images/screenshots/1b.jpg" alt="Agency"></div>
                     <h3 class="content-box-title font-serif">Myanmar Wonder Package</h3></a></div>
@@ -147,7 +147,6 @@
                 <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_landing.html">
                     <div class="content-box-image"><img src="assets/images/screenshots/2c.jpg" alt="Landing"></div>
                     <h3 class="content-box-title font-serif">Osaka</h3></a></div>
-              <section id="international">
                 <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_photography.html">
                     <div class="content-box-image"><img src="assets/images/screenshots/3a.jpg" alt="Photography"></div>
                     <h3 class="content-box-title font-serif">Bacolod Delights</h3></a></div>
@@ -166,8 +165,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_portfolio.html">
                     <div class="content-box-image"><img src="assets/images/screenshots/4c.jpg" alt="Portfolio"></div>
                     <h3 class="content-box-title font-serif">Singapore Super Value Package</h3></a></div>
-                </section>
-                <section id="bicol">
+               
                   <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_restaurant.html">
                       <div class="content-box-image"><img src="assets/images/screenshots/5a.jpg" alt="Restaurant"></div>
                       <h3 class="content-box-title font-serif">Singapore Super Value Package</h3></a></div>
@@ -185,12 +183,11 @@
                       <h3 class="content-box-title font-serif">Dubai</h3></a></div>
                   <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="index_op_fullscreen_gradient_overlay.html">
                       <div class="content-box-image"><img src="assets/images/screenshots/6c.jpg" alt="One Page"></div>
-                      <h3 class="content-box-title font-serif">Bangkok Tri-City</h3></a></div>    
-                </section>
+                      <h3 class="content-box-title font-serif">Bangkok Tri-City</h3></a></div>  
 
             </div>
           </div>
-        </section>
+        </div>
         <hr class="divider-w pt-20">
         <section class="module">
           <div class="container">
@@ -239,28 +236,76 @@
                     "Hayahay" is an obscure word in the Tagalog language, but in the Bicolano language, it means <b>Relaxed, Comfortable, Cool & Refreshed</b>. <br/>
                     In Hayahay Travels and Tours, you’ll be travelling with ease and relaxation.
                   </div>
-                  <p>Hayahay Travels and Tours is a travel agency duly-licensed by the Department of Tourism. We are a full service travel and tour agency, this means that regardless of your vacation needs we can help. We provide a wide array of services including international and local packages comprising of land arrangement, airline tickets, land transfers and sightseeing tours. The company operates with our very own Tour Van and friendly driver for local area tours.</p>
+                  <p>Hayahay Travel and Tours is a travel agency duly-licensed by the Department of Tourism. We are a full service travel and tour agency, this means that regardless of your vacation needs we can help. We provide a wide array of services including international and local packages comprising of land arrangement, airline tickets, land transfers and sightseeing tours. The company operates with our very own Tour Van and friendly driver for local area tours.</p>
                   <p>Hayahay Travels and Tours is also a member of the prestigious National Association of Independent Travel Agencies (NAITAS) and the Bicol Association of Travel & Tour Operators (BATTO).</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="module-extra-small bg-dark">
+        <section class="module" id="contact">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6 col-md-8 col-lg-9">
-                <div class="callout-text font-alt">
-                  <h4 style="margin-top: 0px;">SAY YES TO NEW ADVENTURES</h4>
-                  <p style="margin-bottom: 0px;">BROWSE THE TOUR PACKAGES!</p>
-                </div>
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Contact us</h2>
+                <div class="module-subtitle font-serif"></div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="callout-btn-box"><a class="btn btn-border-w btn-circle" href="#">Check it out</a></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8">
+                <form id="contactForm" role="form" method="post" action="php/contact.php">
+                  <div class="form-group">
+                    <label class="sr-only" for="name">Name</label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Contact #</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your contact number."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your email address."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" required="required" data-validation-required-message="Please enter your message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="text-center">
+                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
+                  </div>
+                </form>
+                <div class="ajax-response font-alt" id="contactFormResponse"></div>
+              </div>
+              <div class="col-sm-4">
+                <div class="alt-features-item mt-0">
+                  <div class="alt-features-icon"><span class="icon-megaphone"></span></div>
+                  <h3 class="alt-features-title font-alt">We are at:</h3>1469 Magsaysay Street<br/>Sorsogon City 4700<br/>Philippines 
+                </div>
+                <div class="alt-features-item mt-xs-60">
+                  <div class="alt-features-icon"><span class="icon-map"></span></div>
+                  <h3 class="alt-features-title font-alt">Say Hello</h3>Facebook chat: https://facebook.com/hayahaytraveltours<br/>Phone: +1 234 567 89 10<br/>Email: gina.hayahaytravel@gmail.com
+                </div>
               </div>
             </div>
           </div>
         </section>
+      </div>
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">&copy; 2020&nbsp;<a href="index.html">Hayahay Travel and Tours</a>, All Rights Reserved</p>DOT Accreditation: <a href="#">ACC-RO5-0000321-2018</a>
+              </div>
+              <div class="col-sm-6">
+                <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
       <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
